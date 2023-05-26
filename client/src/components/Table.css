@@ -1,0 +1,39 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.search {
+    margin-bottom: 40px;
+}
+
+table {
+    outline: solid;
+    outline-color: rgba(0, 0, 0, 0.2);
+    outline-width: 1px;
+    border-radius: 5px;
+    background-color:  #eaeaea;
+}
+
+td {
+    align-items: center;
+    text-align: center;
+}
+
+thead {
+    align-items: center;
+    text-align: center;
+}
+
+.big {
+    height: 50px;
+}
+
+input {
+    outline: none;
+}

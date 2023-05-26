@@ -1,0 +1,119 @@
+.user * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.user body {
+    background-color: #C0C0C0 !important;
+    background-size: cover;
+}
+
+.user .card-container.card {
+    max-width: 500px !important;
+    padding: 40px 40px;
+}
+
+.user .card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px !important;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.user textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    resize: none !important;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    overflow-y: hidden;
+}
+
+.user textarea:hover {
+    border-color: #58a6ff;
+}
+
+.user textarea:focus {
+    border-color: #58a6ff;
+}
+
+.user .post-input-container {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.user .card-bottom {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    font-size: small;
+}
+
+.user .icon-button {
+    width: 100px;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.card-bottom button:hover {
+    color: #0077ff;
+}
+
+.card-bottom label:hover {
+    color: #0077ff;
+}
+
+.card-bottom label {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.user .card-bottom i {
+    margin: auto;
+}
+
+.user .btn {
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 270px;
+    background-color: black !important;
+    color: white;
+    outline-color: black;
+}
+
+.picker {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.picker2 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.picker3 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}

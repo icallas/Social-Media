@@ -1,0 +1,299 @@
+html {
+  background-color: #C0C0C0;
+  background-size: cover;
+}
+
+.background {
+  background-color: #C0C0C0;
+  background-size: cover;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.standard-card .card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.standard-card .card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 20px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.standard-card .profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.post .card {
+  margin-top: 20px !important;
+  text-align: left;
+  margin: auto;
+  width: 35%;
+  min-height: 200px;
+}
+
+.comment .card {
+  margin-top: 20px !important;
+  text-align: left;
+  margin: auto;
+  width: 35%;
+  min-height: 100px !important;
+}
+
+.post .card-body {
+  text-align: left;
+  white-space: pre-line;
+}
+
+.post .card-header {
+  display: flex;
+  max-height: 40px;
+  background-color: rgba(0, 0, 0, 0.805) !important;
+  color: white !important;
+}
+
+.post .card-header img:hover {
+  cursor: pointer;
+}
+
+.post .userimage {
+  outline: solid;
+  outline-color: #F9F6EE;
+  outline-width: 1px;
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+  margin-right: 12px;
+}
+
+.post .comment-userimage {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.comment-username {
+  display: flex;
+  font-size: small;
+}
+
+.comment-username p {
+  position: absolute;
+  left: 50px;
+  bottom: 1px;
+}
+
+.comment-section textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  resize: none !important;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  overflow-y: hidden;
+}
+
+.comment-section button:hover {
+  color: #0077ff;
+}
+
+.comment-section textarea:hover {
+  border-color: #58a6ff;
+}
+
+.comment-section textarea:focus {
+  border-color: #58a6ff;
+}
+
+.comment .card {
+  background-color: #e0e0e0 !important;
+}
+
+.post-input-container .userimage {
+  outline: solid;
+  outline-color: rgba(0, 0, 0, 0.793);
+  outline-width: 2px;
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+  margin-right: 12px;
+}
+
+.post .card-footer {
+  text-align: right;
+}
+
+.post .timeago {
+  position: absolute;
+  bottom: 20px;
+  right: 2px;
+  font-size: small;
+}
+
+.post .closebtn {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: medium;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.post .icon-button {
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.post .bottom-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.comment .closebutton {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  font-weight: 600;
+  font-size: medium;
+  color: black;
+  cursor: pointer;
+}
+
+.post .card-footer {
+  display: flex;
+  text-align: left;
+  max-height: 40px;
+}
+
+.post .card-footer .icon:hover {
+  color: blue !important;
+  cursor: pointer;
+}
+
+.post .card-footer .solidthumb:hover {
+  cursor: pointer;
+}
+
+.post .card-footer .solidthumb {
+  color: blue !important;
+}
+
+.alert {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.user .alert {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.error_alert {
+  text-align: center;
+  width: 15%;
+  padding: 20px;
+  color: #F8D7DA;
+  background-color: #721c24;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.alertFrame {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error_alert .closebtn {
+  margin-left: auto;
+  color: #F8D7DA;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: red;
+}
+
+.closebutton:hover {
+  color: red;
+}
+
+
+.nav-link:hover {
+  color: #58a6ff
+}
+
+.nav-link-red:hover {
+  color: #ff0000
+}
+
+.navbar-brand:hover {
+  color: #58a6ff
+}
+
+.btn {
+  background-color: black !important;
+  color: white;
+  outline-color: black;
+}
+
+.login-button .btn {
+  color: white !important;
+}
+
+.bottom-space {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"]~span {
+  display: block;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
