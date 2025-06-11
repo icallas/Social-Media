@@ -29,7 +29,11 @@ The iSocial project provides the following features:
   - List of the user’s posts
 - **Profile Management**:
   - Option to change the profile picture.
-  - Option to delete their own posts.
+  - Option to delete/update their own posts.
+
+### Messaging System
+- **Friend System**: Users can send and receive friend requests to build a network of friends.
+- **Private Messaging**: Once added as friends, users can communicate directly via private messages.à
 
 ### Navigation
 - **Profile Access**: Users can access their own profile via a dedicated tab. They can also view other users' profiles by clicking on their profile picture in their posts.
