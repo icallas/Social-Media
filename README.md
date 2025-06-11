@@ -1,7 +1,7 @@
 # iSocial
 
 ## Context
-iSocial is a modern social network offering a comprehensive range of features expected from a social platform. The application allows users to create content, interact with other users, and manage their profiles. It also includes moderation and administration tools for efficient platform management.
+iSocial is a modern social network offering a range of features expected from a social platform. The application allows users to create content, interact with other users, and manage their profiles. It also includes moderation and administration tools for efficient platform management.
 
 ## Features
 The iSocial project provides the following features:
